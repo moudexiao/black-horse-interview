@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>黑马面面</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <script src="./js/flexible.js"></script>
+    <script src="./js/swiper.min.js"></script>
+  </head>
+  <body>
+    <section class="wrap">
+      <!-- header部分 -->
+      <header class="header">黑马面面</header>
+      <!-- nav部分 -->
+      <nav class="nav">
+        <a href="#">
+          <img src="./icons/icon1.png" alt="" />
+          <span>HR面试</span>
+        </a>
+        <a href="#">
+          <img src="./icons/icon2.png" alt="" />
+          <span>笔试</span>
+        </a>
+        <a href="#">
+          <img src="./icons/icon3.png" alt="" />
+          <span>技术面试</span>
+        </a>
+        <a href="#">
+          <img src="./icons/icon4.png" alt="" />
+          <span>模拟面试</span>
+        </a>
+        <a href="#">
+          <img src="./icons/icon5.png" alt="" />
+          <span>面试技巧</span>
+        </a>
+        <a href="#">
+          <img src="./icons/icon6.png" alt="" />
+          <span>薪资查询</span>
+        </a>
+      </nav>
+      <!-- go模块 -->
+      <section class="go">
+        <img src="./images/go.png" alt="" />
+      </section>
+    </section>
+    <!-- 就业指导模块 -->
+    <section class="content">
+      <div class="content-hd">
+        <h4>就业指导</h4>
+        <a href="#" class="more">更多>>></a>
+      </div>
+    </section>
+    <!-- 轮播图模块 -->
+    <div class="get_job">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./images/pic.png" alt="" />
+            </a>
+            <p>老师教你面试技巧</p>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./images/ldh.jpg" alt="" />
+            </a>
+            <p>老师教你面试技巧</p>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./images/ldh.jpg" alt="" />
+            </a>
+            <p>老师教你面试技巧</p>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="./images/3.jpg" alt="" />
+            </a>
+            <p>老师教你面试技巧</p>
+          </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- 充电学习模块 -->
+    <section class="content">
+      <div class="content-hd">
+        <h4>充电学习</h4>
+        <a href="#" class="more">更多>>></a>
+      </div>
+    </section>
+    <div class="study">
+      <div class="swiper">
+        <div class="box">
+          <img src="./images/pic1.png" alt="" />
+          <p>说地道英语，告别中式英语</p>
+          <div class="text"><span>156</span>人学习</div>
+        </div>
+        <div class="box">
+          <img src="./images/pic2.png" alt="" />
+          <p>思维攻略金字塔思维提升写作能力</p>
+          <div class="text"><span>125</span>人学习</div>
+        </div>
+        <div class="box">
+          <img src="./images/pic1.png" alt="" />
+          <p>说地道英语，告别中式英语</p>
+          <div class="text"><span>156</span>人学习</div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="#" class="items">
+        <img src="./icons/home.png" alt="" />
+        <p>首页</p>
+      </a>
+      <a href="#" class="items">
+        <img src="./icons/net.png" alt="" />
+        <p>技术面试</p>
+      </a>
+      <a href="#" class="items">
+        <img src="./icons/ms.png" alt="" />
+        <p>模拟面试</p>
+      </a>
+      <a href="#" class="items">
+        <img src="./icons/user.png" alt="" />
+        <p>我的主页</p>
+      </a>
+    </footer>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
